@@ -1,0 +1,181 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>A King Was Born Today</title> 
+    <style> 
+    body { 
+      margin: 0;
+       font-family: 'Arial', sans-serif; 
+       background: linear-gradient(to bottom right, #f8cdda, #f1a7f1); 
+       color: #333; 
+       text-align: center; 
+       
+    } 
+    .intro{ 
+      height: 100vh;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      background: #333;
+      color: #fff;
+      position: relative;
+      flex-direction: column;
+      } 
+      
+     .typewriter-text { 
+      font-size: 2.5em; 
+      border-right: 3px solid white; 
+      white-space: nowrap; 
+      overflow: hidden; 
+      width: 0; 
+      animation: typing 4s steps(30, end) forwards, blink 0.7s infinite;
+
+    } 
+    
+    @keyframes typing { 
+      to { 
+        width: 100%; 
+        } 
+      } 
+      
+      @keyframes blink { 
+        50% { 
+          border-color: transparent; 
+          } 
+      } 
+      
+      .scroll-indicator {
+        margin-top:20px;
+        font-size: 0.9em;
+        opacity: 0.8;
+      }
+
+      .menu{
+        padding:50px 20px;
+      }
+      .menu h1 { 
+        margin-bottom: 30px; 
+        } 
+      
+      .menu button { 
+        padding: 15px 30px; 
+        margin: 15px; 
+        font-size: 1.2em; 
+        background-color: #ff66b2; 
+        color: white; 
+        border: none; 
+        border-radius: 10px; 
+        cursor: pointer; 
+        transition: background 0.3s; 
+      
+      } .menu button:hover { 
+        background-color: #e0559f; 
+      } 
+      
+      .section { 
+        display: none; 
+        padding: 30px; 
+     
+     } 
+      
+      .section img { 
+        width: 200px; 
+        margin: 10px; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    } 
+    
+    .footer { 
+        margin-top: 40px; 
+        font-size: 0.9em; 
+    } 
+    </style> 
+    </head> 
+    <body> 
+      
+      <!-- Background music (hidden YouTube iframe) --> 
+       <iframe width="0" height="0" src="https://www.youtube.com/embed/TZ57mYDLV5g?autoplay=1&loop=1&playlist=TZ57mYDLV5g" frameborder="0" allow="autoplay" allowfullscreen></iframe> 
+       
+      <!-- Animated Intro --> 
+       <div class="intro"> 
+        <div class="typewriter-text"> &#10084 A king was born today &#10084 !.</div> 
+      </div class="scroll-indicator"> scroll down to continue</div>
+    </div>
+      
+      
+      <!-- Menu --> 
+       <div class="menu"> 
+        <h1>Choose a Surprise:</h1> 
+        <button onclick="showSection('meToYou')">Me to You</button> 
+        <button onclick="showSection('myFav')">My Fav</button> 
+        <button onclick="showSection('mms')">MMS</button> 
+      </div> 
+      
+      <!-- Sections --> 
+       <div class="section" id="meToYou"> 
+        <h2>Me to You</h2> 
+        <p style="max-width: 600px; margin: 0 auto; font-size: 1.2em;">
+          My sweet MIMI &#10084 <br><br>
+          I say it all the time and I would continue to say it <br><br>
+           I am always grateful for the gift of you.<br><br>
+           I can still remember clearly the first time I saw you and the first conversation we had <br><br>
+           (you had better get your facts and story straight cus you were the one stalking me and chasing me around) <br><br>
+           It still feels like yesterday even though a whole lot has happened since then <br><br>
+           But the one thing that has remained a constant is you and I will always be grateful for you &#10084 .<br><br>
+            You are an amazing person and I wish you nothing but joy and happiness all the days of your life.<br><br> 
+            I pray you feel fulfilled, content, and happy in every phase of your life.<br><br> 
+            I pray you become an even better man than what you envision for yourself. <br><br>
+            I know birthdays do not mean anything to you but cheers to a new age daddy don luffy <br><br>
+            I LOVE YOU SO MUCH words fail me <br><br>
+            Jaiye e lo my dia &#10084 <br><br> 
+          </p> 
+        </div> 
+        
+        <div class="section" id="myFav"> 
+          <h2>My Fav</h2> 
+          <p style="max-width: 600px; margin: 0 auto; font-size: 1.2em;">
+            My Mimi &#10084 <br><br>
+            We've shared a lot of memories together and I wouldnt trade them for anything. <br><br>
+            From Akwa Ibom to our games village era to our suleja era o to our lugbe era o <br><br>
+            You see why today is special now. Imagine they did not born you chai! <br><br>
+            We need to take more pictures!! <br><br>
+          </p>
+          <img src="img/IMG_4537.jpeg" alt="Photo 1"> 
+          <img src="img/IMG_4551.jpeg" alt="Photo 2"> 
+          <img src="img/IMG_6663.jpeg" alt="Photo 1"> 
+          <img src="img/IMG_6849.jpeg" alt="Photo 1"> 
+        </div> 
+        
+        <div class="section" id="mms"> 
+          <h2>MMS</h2> 
+          <p style="font-size: 1.2em;">Imagine I gifted you abeg: 
+          </p> 
+          <img src="img/IMG_6440.jpeg" alt="Gift 1"> 
+          <img src="img/IMG_6441.jpeg" alt="Gift 2"> 
+          <img src="img/IMG_6442.jpeg" alt="Gift 3"> 
+          <img src="img/IMG_6444.jpeg" alt="Gift 4"> 
+          <img src="img/IMG_6445.jpeg" alt="Gift 5"> 
+          <img src="img/IMG_6446.jpeg" alt="Gift 6"> 
+
+          <p style="font-size: 1.2em;"> 
+            You're welcome, you're welcome!
+          </p> 
+
+        </div> 
+        
+        <div class="footer"> 
+          <p>With all my love &#10084 — BIBI</p> 
+        </div> 
+        
+        <script> function showSection(id) 
+        { const sections = document.querySelectorAll('.section'); 
+        sections.forEach(sec => sec.style.display = 'none'); 
+        document.getElementById(id).style.display = 'block'; 
+        window.scrollTo({ top: document.getElementById(id).offsetTop, behavior: 'smooth' });
+       } 
+      </script>
+      
+      </body> 
+      </html>
